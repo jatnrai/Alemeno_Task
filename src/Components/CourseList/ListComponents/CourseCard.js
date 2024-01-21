@@ -34,7 +34,7 @@ export default function CourseCard({ CourseData }) {
   return (
     <Container className="CourseList">
       <Row xs={1} md={2} lg={3} className="justify-content-around">
-        {CourseData === undefined
+        {CourseData == undefined
           ? "no data found"
           : CourseData.map((Course, index) => (
             <Col key={index} className="mb-4">
