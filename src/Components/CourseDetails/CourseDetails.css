@@ -1,0 +1,123 @@
+.CourseDetailsContain{
+    margin: 1rem auto;
+    background-color: #f7f7f7;
+    border-radius: .6rem;
+}
+
+
+.CourseInfoContainer{
+    background-color: #2d2f31;
+    padding: 1rem 0.5rem;
+    color: #fff;
+    height: 100%;
+}
+.headerCourse{
+    text-align: center;
+    width: 75%;
+}
+
+.CourseInfoContainerHeader{
+     display: flex;
+     justify-content: center;
+     padding-top: 1.5rem;
+}
+.ImageContainer{
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.EnrollBTN{
+    width: 90%;
+    font-size: x-large !important;
+    font-weight: 600 !important;
+}
+
+.SubscribeSection{
+    margin: 1.5rem 0;
+}
+
+.CourseBasicSection,
+.PreRequirment,
+.fullSyllabus{
+    text-align: start;
+    width: 75%;
+    margin-top: 1.5rem;
+    margin: 1.5rem auto .5rem ;
+}
+.basicSection,
+.requirmentSection{
+    text-align: start;
+    border: 1px solid #818181;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+.basicSection h2{
+    font-weight: 700;
+    color: #2e2e2e;
+}
+.syllabusWeek{
+    font-size: 19px;
+    font-weight: 600;
+    color: #474747;
+    border: 1px solid #717171;
+    border-radius: .8rem .8rem 0 0;
+    padding:  .5rem 1rem;
+}
+.SyllabusContentSection{
+    font-size: 16px;
+    font-weight: 600;
+    color: #2c2c2c;
+    border: 1px solid #717171;
+    border-radius: 0 0 .8rem .8rem;
+    padding:  .5rem 1rem;
+}
+.basicSection p{
+    font-weight: 600;
+    font-size: 21px;
+    color: #474747;
+    /* text-align: center; */
+}
+.requirements{
+    font-size: 21px;
+    font-weight: 700;
+    color: #2e2e2e;
+    font-family: serif;
+    margin: .5rem 0 .3rem 0;
+}
+
+
+@media only screen and (max-width: 550px) {
+    .CourseInfoContainer{
+        padding: 0;
+    }
+    .ImageContainer img{
+        width: 100% !important;
+    }
+    .contentArea{
+        width: 100% !important;
+    }
+  }
+
+@media only screen and (max-width: 776px) {
+    /* .CourseBasicSection{
+        width: 100%;
+    } */
+  }
+
+@media only screen and (max-width: 991px) {
+    .ImageContainer{
+        height: 200px;
+    }
+    .headerCourse{
+        text-align: center;
+        width: 100%;
+    }
+    .CourseBasicSection,
+    .PreRequirment{
+        width: 100%;
+    }
+    
+  }

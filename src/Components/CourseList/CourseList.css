@@ -1,0 +1,46 @@
+.subHeader{
+    background-image: url(../../Assets/Images/headerImage.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    height: 250px;
+}
+
+.CardTitle{
+    font-size: 19px !important;
+    font-weight: 700 !important;
+}
+.InnerText{
+    color: #787878;
+    font-weight: 500;   
+}
+
+.CourseList{
+    background-color: #f7f7f7;
+    padding: 1.5rem;
+    border-radius: .6rem;
+}
+.CourseLink{
+    text-decoration: none;
+    color: #000;
+}
+.CourseImgContainer{
+    height: 150px;
+    overflow: hidden;
+}
+
+.CourseCardImage{
+    object-fit: cover;
+    height: 100%;
+    transition: height 0.4s ease;
+
+}
+
+.CourseLink :hover{
+    text-decoration: none;
+
+}
+.CourseLink:hover .CourseCardImage {
+    height: 170px;
+    animation: 3s;
+  }
